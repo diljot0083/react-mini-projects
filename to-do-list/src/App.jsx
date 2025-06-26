@@ -1,12 +1,12 @@
 
 import './App.css'
-import TodoInput from './components/list/TodoInput'
+import TodoList from './components/list/TodoList'
 
 function App() {
 
   return (
     <>
-      <TodoInput />
+      <TodoList />
     </>
   )
 }

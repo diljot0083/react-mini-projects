@@ -22,7 +22,7 @@ const TodoInput = ({ addTodo }) => {
                 placeholder="What do you want to do today?"
                 value={text}
                 onChange={(e) => setText(e.target.value)}
-            /> <br /> <br />
+            />
 
             <button type="submit" >Add</button>
 
