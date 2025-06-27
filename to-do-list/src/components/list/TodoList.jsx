@@ -11,7 +11,7 @@ const TodoList = () => {
         localStorage.setItem("Task List", JSON.stringify(todos));
     }, [todos]);
 
-    const addtodo = (text) => {
+    const addTodo = (text) => {
 
         const newTodo = { id: Date.now(), text, complete: false };
         setTodos([...todos, newTodo]);
@@ -31,7 +31,7 @@ const TodoList = () => {
 
     return (
         <div>
-            <TodoInput addTodo={addtodo} />
+            <TodoInput addTodo={addTodo} />
 
             <div className="todo-list">
                 {todos.map((todo) => (
