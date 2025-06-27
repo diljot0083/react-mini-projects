@@ -4,32 +4,30 @@ This repository is a collection of React mini projects built for practice, revis
 Components
 Hooks (useState, useEffect, etc.)
 Props & Events
-State management
-Local storage
-Conditional rendering
-Form handling
-Basic styling
+State Management
+Local Storage
+Conditional Rendering
+Form Handling
+Basic Styling (CSS / Tailwind CSS)
 
 📌 Purpose of This Repository
-💡 This is a personal practice and revision space, not meant for production.
+💡 This is a personal practice and revision space, not intended for production use.
 
-🔁 To revise core React concepts quickly
+🔁 Revise core React concepts quickly
 
-🔧 To experiment with UI ideas and logic
+🔧 Experiment with UI ideas and logic
 
-🧪 To test different approaches in React
+🧪 Test different approaches in React
 
-✅ To maintain regular hands-on coding habits
+✅ Maintain regular hands-on coding habits
 
 📁 Projects in This Repo
 Each folder in this repository represents a standalone mini project. Examples include:
-
-✅ To-Do List App
-✅ Counter App
-✅ Theme Toggler
-✅ Calculator UI
-✅ Form Validation
-
+To-Do List App
+Counter App
+Theme Toggler
+Calculator UI
+Form Validation
 ...and more coming soon!
 
 Feel free to explore each folder independently.
@@ -39,13 +37,13 @@ React (via Vite or CRA)
 JavaScript (ES6+)
 HTML5 & CSS3
 Tailwind CSS (in some projects)
-React Hooks
+React Hooks (useState, useEffect, etc.)
 
 🧠 Disclaimer
-This repository is for learning and personal growth.
-The code may vary in style and completeness, as the goal is to practice, not perfect.
+This repository is meant for learning and personal growth.
+The code may vary in style or completeness, as the focus is on practice, not perfection.
 
 📬 Contact
-Want to connect or give feedback?
+If you'd like to connect or provide feedback:
 
 GitHub: diljot0083
