@@ -24,6 +24,11 @@ const TodoList = () => {
         setTodos(updatedTodos);
     };
 
+    const deleteTodo = (id) => {
+        const updatedTodos = todos.filter((todo) => todo.id !== id);
+        setTodos(updatedTodos);
+    }
+
     return (
         <div>
             <TodoInput addTodo={addtodo} />
@@ -31,11 +36,22 @@ const TodoList = () => {
             <div className="todo-list">
                 {todos.map((todo) => (
                     <div key={todo.id} className="todo-item">
+
                         <input type="checkbox"
                             checked={todo.complete}
                             onChange={() => toggleTodo(todo.id)}
                         />
-                        {todo.text}
+
+                        <span style={{ textDecoration: todo.complete ? "line-through" : "none" }}>
+                            {todo.text}
+                        </span>
+
+                        <button
+                            className="delete-button"
+                            onClick={() => deleteTodo(todo.id)}
+                        >
+                            ✖
+                        </button>
                     </div>
                 ))}
             </div>
